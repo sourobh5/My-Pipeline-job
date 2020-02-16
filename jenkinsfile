@@ -4,15 +4,18 @@ pipeline
 		{
 			stages
 			{
-			  stage ('print hi')
+			     stage ('print hi')
 			  
 			  {
-			   steps { 
+			      steps 
+			      { 
 						sh 'echo hi '
+						
 						}
 			 }
 			 
 		}
 		
 		}
+	}
 		
